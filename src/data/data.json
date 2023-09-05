@@ -1,0 +1,16 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Hariharan",
+      "email": "harimanoharancs@gmail.com",
+      "password": "hariharan"
+    }
+  ],
+  "roles":[
+    {  
+    "userId":1,
+    "role":"admin"
+    }
+  ]
+}
