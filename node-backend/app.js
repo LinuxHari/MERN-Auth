@@ -12,7 +12,7 @@ app.use(express.json())
 
 app.use(express.urlencoded())
 
-app.use(CORS({origin: 'http://localhost:3000'}))
+app.use(CORS())
 
 app.use(authRoute)
 

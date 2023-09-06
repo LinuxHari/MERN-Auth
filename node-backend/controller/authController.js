@@ -18,7 +18,7 @@ exports.signUp = async (req, res) => {
     };
 
     await userModel.create(userData);
-    res.status(201).json({message:"Registration Successfull!"});
+    res.status(201).json({message:"Registration Successfull! Please Login"});
   } catch (error) {
     res.status(500).send("Internal Server Error");
   }
